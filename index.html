@@ -1,0 +1,20 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contador</title>
+    </head>
+    <body>
+        <h1>Contador de vistas por nuestra pagina</h1>
+        <p>{{session['num']}}</p>
+
+        <form action="/add2" class="text-center">
+            <button>Aumenta +2</button>
+        </form>
+        <form action="/destroy" class="text-center">
+            <button>Reiniciar contador</button>
+        </form>
+
+    </body>
+</html>
